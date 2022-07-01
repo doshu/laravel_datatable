@@ -1,0 +1,99 @@
+
+
+.datatable {
+    position:relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.datatable select.form-control.input-xs {
+    padding:2px 5px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.datatable .datatable-loading {
+    display:none;
+}
+
+.datatable.loading .datatable-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    flex-direction: column;
+    background: rgba(255, 255, 255,0.5);
+}
+
+.datatable.loading .datatable-loading .loading-text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 35px 10px;
+    border: 1px solid #b3c2d0;
+    box-shadow: 0 0 5px #c5c5c5;
+}
+
+.datatable thead th span {
+    font-size:13px;
+}
+
+.datatable thead th .select2-container {
+    width:100%!important;
+    position:relative!important;
+}
+
+
+.datatable > table > thead {
+    background: #fbfbfb;
+}
+
+.datatable.datatable-responsive > table >tbody>tr:nth-of-type(3n) {
+    background-color: #fbfbfb;
+}
+
+.datatable .more-filters {
+    padding-top:15px;
+    clear:both;
+}
+
+.datatable .more-filters table {
+    margin-top:10px;
+}
+
+.datatable .left-actions {
+    float:left;
+}
+
+.datatable .massive-actions {
+    float:right;
+}
+
+.datatable .massive-actions select, .datatable .show-per-page select {
+    display: inline-block!important;
+    width:auto;
+    max-width:100%;
+}   
+
+.datatable .massive-actions-container .selection-actions small {
+    padding-right:5px;
+    padding-left:5px;
+    display:inline-block;
+    border-left:1px solid #ccc;
+}
+
+.datatable .massive-actions-container .selection-actions small:first-of-type {
+    border-left:0;
+    padding-left:0;
+}
+
+
+
+
+
+
+
